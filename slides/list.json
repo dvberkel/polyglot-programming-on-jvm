@@ -2,5 +2,11 @@
     "index.md",
     "polyglot.md",
     "why.md",
-    "sapir-whorf-hypothesis.md"
+    {
+        "filename": "sapir-whorf-hypothesis.md",
+        "attr": {
+            "data-background": "image/worf.jpg",
+            "data-background-position": "top"
+        }
+    }
 ]
