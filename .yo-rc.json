@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Polyglot Programming",
+    "packageVersion": "1.0.0",
+    "revealTheme": "default",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "dvberkel",
+    "githubRepository": "polyglot-programming-on-jvm"
+  }
+}
