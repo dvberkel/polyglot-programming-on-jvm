@@ -17,5 +17,11 @@
             "data-background": "image/worf.jpg",
             "data-background-position": "top"
         }
+    },
+    {
+        "filename": "language-carousel.html",
+        "attr": {
+            "data-state": "carousel"
+        }
     }
 ]
