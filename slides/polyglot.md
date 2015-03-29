@@ -1,3 +1,2 @@
-##  polyglot
-
-> knowing or using several languages. <!-- .element class="fragment" -->
+note:
+    knowing or using several languages.
