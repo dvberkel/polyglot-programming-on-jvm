@@ -23,5 +23,6 @@
         "attr": {
             "data-state": "carousel"
         }
-    }
+    },
+    "scala-clojure.md"
 ]
