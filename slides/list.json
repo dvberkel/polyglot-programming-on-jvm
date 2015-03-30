@@ -24,5 +24,10 @@
             "data-state": "carousel"
         }
     },
-    "scala-clojure.md"
+    "scala-clojure.md",
+    {
+        "attr": {
+            "data-background": "image/flippo.jpg"
+        }
+    }
 ]
