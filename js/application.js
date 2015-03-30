@@ -4,7 +4,28 @@
 
     Reveal.addEventListener('carousel', function(){
         var container = document.getElementById('carousel');
+        var languages = [
+            'Ada',
+            'BBx',
+            'C',
+            'CFML',
+            'Clojure',
+            'Common Lisp',
+            'Groovy',
+            'JavaScript',
+            'Oberon',
+            'Oxygene',
+            'Pascal',
+            'Perl',
+            'Prolog',
+            'Python',
+            'REXX',
+            'Ruby',
+            'Scala',
+            'Scheme',
+            'Tcl',
+        ];
 
-        carousel.show(['aap', 'noot', 'mies'], container);
+        carousel.show(languages, container);
     });
 })(document, Reveal, carousel);
