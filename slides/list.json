@@ -31,6 +31,12 @@
         }
     },
     {
+        "filename": "build.md",
+        "attr": {
+            "data-background": "image/flippo.jpg"
+        }
+    },
+    {
         "filename": "24.md",
         "attr": {
             "data-background": "image/flippo.jpg"
