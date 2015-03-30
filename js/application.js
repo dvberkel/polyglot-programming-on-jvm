@@ -2,30 +2,34 @@
 (function(document, Reveal, carousel){
     'use strict';
 
-    Reveal.addEventListener('carousel', function(){
-        var container = document.getElementById('carousel');
-        var languages = [
-            'Ada',
-            'BBx',
-            'C',
-            'CFML',
-            'Clojure',
-            'Common Lisp',
-            'Groovy',
-            'JavaScript',
-            'Oberon',
-            'Oxygene',
-            'Pascal',
-            'Perl',
-            'Prolog',
-            'Python',
-            'REXX',
-            'Ruby',
-            'Scala',
-            'Scheme',
-            'Tcl',
-        ];
+    var visited = {};
+    Reveal.addEventListener('carousel', function(event){
+        if (!visited[event.type]){
+            visited[event.type] = true;
+            var container = document.getElementById('carousel');
+            var languages = [
+                'Ada',
+                'BBx',
+                'C',
+                'CFML',
+                'Clojure',
+                'Common Lisp',
+                'Groovy',
+                'JavaScript',
+                'Oberon',
+                'Oxygene',
+                'Pascal',
+                'Perl',
+                'Prolog',
+                'Python',
+                'REXX',
+                'Ruby',
+                'Scala',
+                'Scheme',
+                'Tcl',
+            ];
 
-        carousel.show(languages, container);
+            carousel.show(languages, container);
+        }
     });
 })(document, Reveal, carousel);
