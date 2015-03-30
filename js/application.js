@@ -29,7 +29,7 @@
                 'Tcl',
             ];
 
-            carousel.show(languages, container);
+            carousel.show(languages, container, { timeout: 150 });
         }
     });
 })(document, Reveal, carousel);
